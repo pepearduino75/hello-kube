@@ -4,6 +4,7 @@ metadata:
   annotations:
     traefik.ingress.kubernetes.io/router.tls: "true"
   name: hello
+  namespace: test      
 spec:
   ingressClassName: kommander-traefik
   rules:
