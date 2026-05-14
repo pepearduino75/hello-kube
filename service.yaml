@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: hello
-  namespace: test    
+  namespace: hello-kube
   labels:
     app: hello
 spec:
